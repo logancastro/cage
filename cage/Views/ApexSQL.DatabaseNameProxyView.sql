@@ -1,0 +1,7 @@
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE VIEW ApexSQL.DatabaseNameProxyView
+AS
+SELECT DatabaseName FROM ApexSql.DatabaseName
+GO

@@ -1,0 +1,7 @@
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE VIEW ApexSQL.ClientHostNameProxyView
+AS
+SELECT ClientHostName FROM ApexSql.ClientHostName
+GO
